@@ -6,6 +6,7 @@ matriz = [
     [53, 97, 71],
     [86, 54, 76]
 ]
+
 # Función para ordenar una fila de manera ascendente utilizando Bubble Sort
 def bubble_sort_fila(fila):
     n = len(fila)
