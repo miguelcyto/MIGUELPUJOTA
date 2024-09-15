@@ -45,5 +45,4 @@ def mostrar_promedios(promedios):
 
 # Una ves calculados los promedios desplegamos en pantalla
 promedio = calcular_promedios(temperatura)
-print(f"  Semana ")
 mostrar_promedios(promedio)
