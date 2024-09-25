@@ -1,25 +1,21 @@
-# Crear un diccionario llamado informacion_personal
-informacion_personal = {
-    "nombre": "Juan Pérez",
-    "edad": 30,
-    "ciudad": "Quito",
-    "profesion": "Ingeniero"
+# Crear un diccionario llamado informacion_personal con las claves nombre, edad, ciudad,profesion
+informacion_personal = {"Nombre": "Miguel Pujota","Edad": 33,"Ciudad": "Quito","Profesion": "Ingeniero"
 }
 
-# Acceder y modificar el valor asociado con la clave "ciudad"
-informacion_personal["ciudad"] = "Guayaquil"
+# Acceder y modificar el valor asociado con la clave "ciudad" y "nombre"
+informacion_personal["Ciudad"] = "Cuenca"
 
 # Agregar una nueva clave-valor al diccionario que represente la "profesion"
-informacion_personal["profesion"] = "Desarrollador de Software"
+informacion_personal["Profesion"] = "Militar"
 
-# Verificar si la clave "telefono" existe en el diccionario. Si no existe, agregarla
+# Verifica si la clave "telefono" existe en el diccionario. Si no existe, agrégala con un número de teléfono ficticio.
 if "telefono" not in informacion_personal:
-    informacion_personal["telefono"] = "0987654321"
+    informacion_personal["Telefono"] = "0998242901"
 
-# Eliminar la clave "edad" del diccionario
-del informacion_personal["edad"]
+# Elimina la clave "edad" del diccionario,  ya que esa información no es necesaria.
+del informacion_personal["Edad"]
 
-# Imprimir el diccionario resultante después de realizar todas las operaciones
+# una vez realizado los cambios vamos a imprimir el diccionario resultante después de realizar todas las operaciones
 print(informacion_personal)
 
 
