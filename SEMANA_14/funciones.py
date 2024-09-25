@@ -1,4 +1,3 @@
-
 #creamos una funcion con el nombre calcular descuento con los parametros que vamos almacenar
 #en este caso total, y asignamos porcentaje de descuento con el 10% que va por defecto en el descuento.
 def calcular_descuento(total, porcentaje_descuento=10):
