@@ -10,7 +10,7 @@ informacion_personal["Profesion"] = "Militar"
 
 # Verifica si la clave "telefono" existe en el diccionario. Si no existe, agrégala con un número de teléfono ficticio.
 # en este caso vamos a utilizar IF para verificar si existe o no el numero de telefono
-# en el caso de no existir agregaremos a nuestro diccionario..
+# en el caso de no existir agregaremos a nuestro diccionario...
 if "telefono" not in informacion_personal:
     informacion_personal["Telefono"] = "0998242901"
 
