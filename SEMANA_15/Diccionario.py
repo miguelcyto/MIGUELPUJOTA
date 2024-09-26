@@ -2,7 +2,7 @@
 informacion_personal = {"Nombre": "Miguel Pujota","Edad": 33,"Ciudad": "Quito","Profesion": "Ingeniero"
 }
 
-# Acceder y modificar el valor asociado con la clave "ciudad"
+# Acceder y modificar el valor asociado con la clave.. "ciudad"
 informacion_personal["Ciudad"] = "Cuenca"
 
 # Agregar una nueva clave-valor al diccionario  que represente la "profesion"
