@@ -23,7 +23,6 @@ def es_radio_valido(radio):
     """
     return radio > 0
 
-
 def main():
     print("Calculadora de Área de un Círculo")
 
