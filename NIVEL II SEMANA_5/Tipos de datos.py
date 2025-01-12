@@ -4,7 +4,6 @@
 
 import math
 
-
 def calcular_area_circulo(radio):
     """
     Función para calcular el área de un círculo dado su radio.
