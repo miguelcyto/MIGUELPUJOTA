@@ -1,5 +1,4 @@
 import os
-
 class Producto:
     def __init__(self, id, nombre, cantidad, precio):
         self.id = id
@@ -64,7 +63,7 @@ class Inventario:
         else:
             self.productos.append(producto)
             self.guardar_inventario()
-            print("Producto añadido exitosamente.")
+               print("Producto añadido exitosamente.")
 
     def eliminar_producto(self, id):
         self.productos = [p for p in self.productos if p.get_id() != id]
