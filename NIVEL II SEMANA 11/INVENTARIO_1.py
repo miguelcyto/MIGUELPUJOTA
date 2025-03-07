@@ -71,7 +71,6 @@ class Inventario:
         for producto in self.productos.values():
             print(producto)
 
-
 def guardar_inventario(inventario, archivo):
     datos = {}
     for id, producto in inventario.productos.items():
@@ -83,16 +82,14 @@ def guardar_inventario(inventario, archivo):
     with open(archivo, "w") as f:
         json.dump(datos, f)
 
-
 def cargar_inventario(archivo):
     inventario = Inventario()
     if os.path.exists(archivo):
         with open(archivo, "r") as f:
             datos = json.load(f)
             for id, producto in datos.items():
-                inventario.agregar_producto(Producto(id, producto["nombre"], producto["cantidad"], producto["precio"]))
+            inventario.agregar_producto(Producto(id, producto["nombre"], producto["cantidad"], producto["precio"]))
     return inventario
-
 
 def main():
     archivo = "inventario.json"
@@ -142,7 +139,6 @@ def main():
             break
         else:
             print("Opción inválida")
-
 
 if __name__ == "__main__":
     main()

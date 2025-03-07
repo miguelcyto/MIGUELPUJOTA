@@ -1,3 +1,0 @@
-01,cuaderno,100,0.5
-03,libros,20,2.5
-02,esferos,50,0.25

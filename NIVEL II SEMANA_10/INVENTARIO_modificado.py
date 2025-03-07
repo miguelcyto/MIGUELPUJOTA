@@ -9,7 +9,7 @@ class Producto:
     def get_id(self):
         return self.id
         def get_nombre(self):
-        return self.nombre
+            return self.nombre
 
     def get_cantidad(self):
         return self.cantidad
@@ -63,7 +63,7 @@ class Inventario:
         else:
             self.productos.append(producto)
             self.guardar_inventario()
-               print("Producto añadido exitosamente.")
+            print("Producto añadido exitosamente.")
 
     def eliminar_producto(self, id):
         self.productos = [p for p in self.productos if p.get_id() != id]
