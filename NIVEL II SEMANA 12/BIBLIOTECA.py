@@ -79,14 +79,14 @@ class Biblioteca:
 biblioteca = Biblioteca()
 
 # Añadir libros
-libro1 = Libro("El Quijote", "Miguel de Cervantes", "Novela", "1234567890")
-libro2 = Libro("Cien Años de Soledad", "Gabriel García Márquez", "Novela", "0987654321")
+libro1 = Libro("El Poder de la Mente Subconciente", "Jhosep Morphy", "Motivacion", "0992456780")
+libro2 = Libro("Piense y Hagase Rico", "Nicolas Hill", "Economia", "0992442035")
 biblioteca.añadir_libro(libro1)
 biblioteca.añadir_libro(libro2)
 
 # Registrar usuarios
-usuario1 = Usuario("Juan Pérez", "001")
-usuario2 = Usuario("Ana Gómez", "002")
+usuario1 = Usuario("Miguel Pujota", "001")
+usuario2 = Usuario("Andrea Gomez", "002")
 biblioteca.registrar_usuario(usuario1)
 biblioteca.registrar_usuario(usuario2)
 
@@ -95,9 +95,13 @@ biblioteca.prestar_libro("001", "1234567890")
 biblioteca.devolver_libro("001", "1234567890")
 
 # Buscar libros
-resultados = biblioteca.buscar_libro("autor", "Gabriel García Márquez")
+resultados = biblioteca.buscar_libro("autor", "Jhosep Morphy")
 for libro in resultados:
     print(libro)
+
+resultados = biblioteca.buscar_libro("autor", "Nicolas Hill")
+for libro in resultados:
+        print(libro)
 
 # Listar libros prestados
 libros_prestados = biblioteca.listar_libros_prestados("001")
