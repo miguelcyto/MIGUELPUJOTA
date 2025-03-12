@@ -33,7 +33,7 @@ class GestorInformacion:
         self.clear_button.pack(pady=5)
 
     def agregar_informacion(self):
-        # Obtener el texto del campo de entrada
+        # Obtener el texto del campo de entrada.
         info = self.entry.get()
         if info:
             # Agregar la información a la lista
