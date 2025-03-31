@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
 class TodoApp:
     def __init__(self, root):
         self.root = root
